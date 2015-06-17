@@ -10,6 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
@@ -30,6 +31,18 @@
 			<artifactId>primefaces</artifactId>
 			<version>5.1</version>
 			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.3.10.Final</version>
 		</dependency>
 	</dependencies>
 </project>
